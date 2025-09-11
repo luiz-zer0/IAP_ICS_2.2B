@@ -1,0 +1,33 @@
+1.MY GIT WORKFLOW FOR ICS 2.2 Project
+1.Initialized git repository in project folder
+2.Created commits for each major feature:
+  git add .
+   git commit -m "Implemented user registration form with validation"
+   git add . 
+   git commit -m "Added PHPMailer integration for email verification"
+   git add .
+   git commit -m "Created database connection and user storage"
+
+3.Github integration
+git remote add origin https://github.com/luiz-zer0/IAP_ICS_2.2B.git
+
+4.Ongoing WORK
+git add .
+git commit -m"FIxed form submission handling and error messages"
+git push origin main
+
+5.FINAL submission
+git add .
+git commit -m"Added numbered user list"
+git push origin main
+
+
+6.pushed all changed to remote repository
+7.Used descriptive commit messages for each change
+COMMAND SUMMARY:
+git add .
+git push
+git log
+git status
+
+ 
