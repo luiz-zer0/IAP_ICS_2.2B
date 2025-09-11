@@ -1,0 +1,1 @@
+echo <?php echo "Apache is working!"; ?> > C:\Apache24\htdocs\test.php
