@@ -20,7 +20,7 @@ spl_autoload_register(function ($class_name) use ($directories) {
 $ObjSendMail = new SendMail();
 $ObjLayouts = new Layouts();
 $ObjForms = new forms();
-$ObjDatabase = new Database($conf);
+// $ObjDatabase = new Database($conf);
 
 
 
