@@ -4,7 +4,7 @@
 require __DIR__ . '/plugins/PHPMailer/vendor/autoload.php';
 require 'conf.php';
 
-$directories = ['Layouts', 'Forms', 'Global'];
+$directories = ['Layouts', 'Forms', 'Global','Proc'];
 
 spl_autoload_register(function ($class_name) use ($directories) {
     foreach ($directories as $directory) {
@@ -20,6 +20,11 @@ spl_autoload_register(function ($class_name) use ($directories) {
 $ObjSendMail = new SendMail();
 $ObjLayouts = new Layouts();
 $ObjForms = new forms();
+
+$ObjAuth= new auth();
+$ObjFncs = new fncs();
+
+$ObjAuth->signup($conf,$ObjFncs,$lang,$ObjSendMail);
 // $ObjDatabase = new Database($conf);
 
 
